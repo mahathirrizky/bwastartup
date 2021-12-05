@@ -14,3 +14,5 @@ type CreateCampaignInput struct {
 	Perks            string `json:"perks" binding:"required"`
 	User             user.User
 }
+
+
